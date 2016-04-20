@@ -1,0 +1,293 @@
+========
+zpaq/zpaq a archive.zpaq corpus/dickens -m"xc65.0.255.255.255"
+
+Method: 00,0
+Method: xc65.0.255.255.255
+Method: xc65.0.255.255.255
+Method: xc65.0.255.255.255
+Method: xc65.0.255.255.255
+Method: xc65.0.255.255.255
+Method: xc65.0.255.255.255
+Method: xc65.0.255.255.255
+Method: xc65.0.255.255.255
+Method: xc65.0.255.255.255
+Method: xc65.0.255.255.255
+Method: xc65.0.255.255.255
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: x0,1,5,0,3,20
+Method: 00,0
+zpaq v7.11 journaling archiver, compiled Apr 20 2016
+Creating archive.zpaq at offset 0 + 0
+Adding 10.192446 MB in 1 files -method xc65.0.255.255.255 -threads 4 at 2016-04-20 12:49:33.
+10.57% 0:00:00 [1..8] 940706 -method xc65.0.255.255.255
+19.83% 0:00:00 [9..14] 1018068 -method xc65.0.255.255.255
+29.60% 0:00:00 [15..33] 1008823 -method xc65.0.255.255.255
+40.61% 0:00:00 [34..45] 884084 -method xc65.0.255.255.255
+48.23% 0:00:00 [46..56] 692937 -method xc65.0.255.255.255
+57.19% 0:00:00 [57..65] 907554 -method xc65.0.255.255.255
+63.75% 0:00:00 [66..74] 1008306 -method xc65.0.255.255.255
+74.08% 0:00:00 [75..89] 1007829 -method xc65.0.255.255.255
+85.40% 0:00:00 [90..102] 912763 -method xc65.0.255.255.255
+92.78% 0:00:00 [103..112] 1037169 -method xc65.0.255.255.255
+100.00% 0:00:00 + corpus/dickens 10192446
+100.00% 0:00:00 [113..121] 774779 -method xc65.0.255.255.255
+1 +added, 0 -removed.
+
+0.000000 + (10.192446 -> 10.192446 -> 3.554476) = 3.554476 MB
+1.323 seconds (all OK)
+========
+zpaq/zpaq a archive.zpaq corpus/dickens -m"xc65.0.255.255.255m" &> a
+
+
+Method: 00,0
+Method: xc65.0.255.255.255m
+Method: xc65.0.255.255.255m
+Method: xc65.0.255.255.255m
+Method: xc65.0.255.255.255m
+Method: xc65.0.255.255.255m
+Method: xc65.0.255.255.255m
+Method: xc65.0.255.255.255m
+Method: xc65.0.255.255.255m
+Method: xc65.0.255.255.255m
+Method: xc65.0.255.255.255m
+Method: xc65.0.255.255.255m
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: x0,1,5,0,3,20
+Method: 00,0
+zpaq v7.11 journaling archiver, compiled Apr 20 2016
+Creating archive.zpaq at offset 0 + 0
+Adding 10.192446 MB in 1 files -method xc65.0.255.255.255m -threads 4 at 2016-04-20 12:50:08.
+10.57% 0:00:00 [1..8] 940706 -method xc65.0.255.255.255m
+19.83% 0:00:00 [9..14] 1018068 -method xc65.0.255.255.255m
+29.60% 0:00:00 [15..33] 1008823 -method xc65.0.255.255.255m
+40.61% 0:00:00 [34..45] 884084 -method xc65.0.255.255.255m
+48.23% 0:00:00 [46..56] 692937 -method xc65.0.255.255.255m
+57.19% 0:00:00 [57..65] 907554 -method xc65.0.255.255.255m
+63.75% 0:00:00 [66..74] 1008306 -method xc65.0.255.255.255m
+74.08% 0:00:00 [75..89] 1007829 -method xc65.0.255.255.255m
+85.40% 0:00:00 [90..102] 912763 -method xc65.0.255.255.255m
+92.78% 0:00:00 [103..112] 1037169 -method xc65.0.255.255.255m
+100.00% 0:00:00 + corpus/dickens 10192446
+100.00% 0:00:00 [113..121] 774779 -method xc65.0.255.255.255m
+1 +added, 0 -removed.
+
+0.000000 + (10.192446 -> 10.192446 -> 3.521960) = 3.521960 MB
+1.744 seconds (all OK)
+========
+zpaq/zpaq a archive.zpaq corpus/dickens -m"xc65.0.255c65.0.255.255m" &> a
+
+
+Method: 00,0
+Method: xc65.0.255c65.0.255.255m
+Method: xc65.0.255c65.0.255.255m
+Method: xc65.0.255c65.0.255.255m
+Method: xc65.0.255c65.0.255.255m
+Method: xc65.0.255c65.0.255.255m
+Method: xc65.0.255c65.0.255.255m
+Method: xc65.0.255c65.0.255.255m
+Method: xc65.0.255c65.0.255.255m
+Method: xc65.0.255c65.0.255.255m
+Method: xc65.0.255c65.0.255.255m
+Method: xc65.0.255c65.0.255.255m
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: x0,1,5,0,3,20
+Method: 00,0
+zpaq v7.11 journaling archiver, compiled Apr 20 2016
+Creating archive.zpaq at offset 0 + 0
+Adding 10.192446 MB in 1 files -method xc65.0.255c65.0.255.255m -threads 4 at 2016-04-20 12:51:11.
+10.57% 0:00:00 [1..8] 940706 -method xc65.0.255c65.0.255.255m
+19.83% 0:00:00 [9..14] 1018068 -method xc65.0.255c65.0.255.255m
+29.60% 0:00:00 [15..33] 1008823 -method xc65.0.255c65.0.255.255m
+40.61% 0:00:00 [34..45] 884084 -method xc65.0.255c65.0.255.255m
+48.23% 0:00:00 [46..56] 692937 -method xc65.0.255c65.0.255.255m
+57.19% 0:00:00 [57..65] 907554 -method xc65.0.255c65.0.255.255m
+63.75% 0:00:00 [66..74] 1008306 -method xc65.0.255c65.0.255.255m
+74.08% 0:00:00 [75..89] 1007829 -method xc65.0.255c65.0.255.255m
+85.40% 0:00:00 [90..102] 912763 -method xc65.0.255c65.0.255.255m
+92.78% 0:00:00 [103..112] 1037169 -method xc65.0.255c65.0.255.255m
+100.00% 0:00:00 + corpus/dickens 10192446
+100.00% 0:00:00 [113..121] 774779 -method xc65.0.255c65.0.255.255m
+1 +added, 0 -removed.
+
+0.000000 + (10.192446 -> 10.192446 -> 3.592683) = 3.592683 MB
+2.018 seconds (all OK)
+========
+zpaq/zpaq a archive.zpaq corpus/dickens -m"xc65.0.255am" &> a 
+
+
+Method: 00,0
+Method: xc65.0.255am
+Method: xc65.0.255am
+Method: xc65.0.255am
+Method: xc65.0.255am
+Method: xc65.0.255am
+Method: xc65.0.255am
+Method: xc65.0.255am
+Method: xc65.0.255am
+Method: xc65.0.255am
+Method: xc65.0.255am
+Method: xc65.0.255am
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: x0,1,5,0,3,20
+Method: 00,0
+zpaq v7.11 journaling archiver, compiled Apr 20 2016
+Creating archive.zpaq at offset 0 + 0
+Adding 10.192446 MB in 1 files -method xc65.0.255am -threads 4 at 2016-04-20 12:53:04.
+10.57% 0:00:00 [1..8] 940706 -method xc65.0.255am
+19.83% 0:00:00 [9..14] 1018068 -method xc65.0.255am
+29.60% 0:00:00 [15..33] 1008823 -method xc65.0.255am
+40.61% 0:00:00 [34..45] 884084 -method xc65.0.255am
+48.23% 0:00:00 [46..56] 692937 -method xc65.0.255am
+57.19% 0:00:00 [57..65] 907554 -method xc65.0.255am
+63.75% 0:00:00 [66..74] 1008306 -method xc65.0.255am
+74.08% 0:00:00 [75..89] 1007829 -method xc65.0.255am
+85.40% 0:00:00 [90..102] 912763 -method xc65.0.255am
+92.78% 0:00:00 [103..112] 1037169 -method xc65.0.255am
+100.00% 0:00:00 + corpus/dickens 10192446
+100.00% 0:00:00 [113..121] 774779 -method xc65.0.255am
+1 +added, 0 -removed.
+
+0.000000 + (10.192446 -> 10.192446 -> 3.784753) = 3.784753 MB
+2.069 seconds (all OK)
+========
+zpaq/zpaq a archive.zpaq corpus/dickens -m"xc65.0.255.255am" &> a
+
+Method: 00,0
+Method: xc65.0.255.255am
+Method: xc65.0.255.255am
+Method: xc65.0.255.255am
+Method: xc65.0.255.255am
+Method: xc65.0.255.255am
+Method: xc65.0.255.255am
+Method: xc65.0.255.255am
+Method: xc65.0.255.255am
+Method: xc65.0.255.255am
+Method: xc65.0.255.255am
+Method: xc65.0.255.255am
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: x0,1,5,0,3,20
+Method: 00,0
+zpaq v7.11 journaling archiver, compiled Apr 20 2016
+Creating archive.zpaq at offset 0 + 0
+Adding 10.192446 MB in 1 files -method xc65.0.255.255am -threads 4 at 2016-04-20 12:54:43.
+10.57% 0:00:00 [1..8] 940706 -method xc65.0.255.255am
+19.83% 0:00:00 [9..14] 1018068 -method xc65.0.255.255am
+29.60% 0:00:00 [15..33] 1008823 -method xc65.0.255.255am
+40.61% 0:00:00 [34..45] 884084 -method xc65.0.255.255am
+48.23% 0:00:00 [46..56] 692937 -method xc65.0.255.255am
+57.19% 0:00:00 [57..65] 907554 -method xc65.0.255.255am
+63.75% 0:00:00 [66..74] 1008306 -method xc65.0.255.255am
+74.08% 0:00:00 [75..89] 1007829 -method xc65.0.255.255am
+85.40% 0:00:00 [90..102] 912763 -method xc65.0.255.255am
+92.78% 0:00:00 [103..112] 1037169 -method xc65.0.255.255am
+100.00% 0:00:00 + corpus/dickens 10192446
+100.00% 0:00:00 [113..121] 774779 -method xc65.0.255.255am
+1 +added, 0 -removed.
+
+0.000000 + (10.192446 -> 10.192446 -> 3.292809) = 3.292809 MB
+2.227 seconds (all OK)
+========
+zpaq/zpaq a archive.zpaq corpus/dickens -m"xc65.0.255.255c65.0.255am" &> a
+
+
+Method: 00,0
+Method: xc65.0.255.255c65.0.255am
+Method: xc65.0.255.255c65.0.255am
+Method: xc65.0.255.255c65.0.255am
+Method: xc65.0.255.255c65.0.255am
+Method: xc65.0.255.255c65.0.255am
+Method: xc65.0.255.255c65.0.255am
+Method: xc65.0.255.255c65.0.255am
+Method: xc65.0.255.255c65.0.255am
+Method: xc65.0.255.255c65.0.255am
+Method: xc65.0.255.255c65.0.255am
+Method: xc65.0.255.255c65.0.255am
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: 00,0
+Method: x0,1,5,0,3,20
+Method: 00,0
+zpaq v7.11 journaling archiver, compiled Apr 20 2016
+Creating archive.zpaq at offset 0 + 0
+Adding 10.192446 MB in 1 files -method xc65.0.255.255c65.0.255am -threads 4 at 2016-04-20 12:55:48.
+10.57% 0:00:00 [1..8] 940706 -method xc65.0.255.255c65.0.255am
+19.83% 0:00:00 [9..14] 1018068 -method xc65.0.255.255c65.0.255am
+29.60% 0:00:00 [15..33] 1008823 -method xc65.0.255.255c65.0.255am
+40.61% 0:00:00 [34..45] 884084 -method xc65.0.255.255c65.0.255am
+48.23% 0:00:00 [46..56] 692937 -method xc65.0.255.255c65.0.255am
+57.19% 0:00:00 [57..65] 907554 -method xc65.0.255.255c65.0.255am
+63.75% 0:00:00 [66..74] 1008306 -method xc65.0.255.255c65.0.255am
+74.08% 0:00:00 [75..89] 1007829 -method xc65.0.255.255c65.0.255am
+85.40% 0:00:00 [90..102] 912763 -method xc65.0.255.255c65.0.255am
+92.78% 0:00:00 [103..112] 1037169 -method xc65.0.255.255c65.0.255am
+100.00% 0:00:00 + corpus/dickens 10192446
+100.00% 0:00:00 [113..121] 774779 -method xc65.0.255.255c65.0.255am
+1 +added, 0 -removed.
+
+0.000000 + (10.192446 -> 10.192446 -> 3.222672) = 3.222672 MB
+2.611 seconds (all OK)
+========

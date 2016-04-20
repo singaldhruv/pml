@@ -11,7 +11,7 @@
 #include <vector>
 #include <algorithm>
 #include <map>
-#include "datatypes.h"
+#include "models/utils/datatypes.h"
 #include "predictor.h"
 
 using namespace std;

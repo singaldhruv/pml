@@ -1,4 +1,5 @@
-#include "datatypes.h"
+#include "models/utils/datatypes.h"
+#include "models/nonst_ppm.cpp"
 #include <vector>
 
 /* A Predictor predicts the next bit given the bits so far using a
@@ -10,7 +11,7 @@ collection of models.  Methods:
 */
 
 class Predictor {
-//  NonstationaryPPM m1;
+  NonstationaryPPM m1;
 //  MatchModel m2;
 //  WordModel m3;
 //  CyclicModel m4;

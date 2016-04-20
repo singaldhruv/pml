@@ -1,3 +1,4 @@
+#include "utils/util.cpp"
 /*
  * Example model here
  * A NonstationaryPPM model guesses the next bit by finding all
@@ -11,7 +12,7 @@ number of subsequent observations and the variance is tp(1-p) for
 t observations and p the probability of a 1 bit given the last t
 observations.  The aged counts are stored in a hash table of 8M
 contexts.
-
+*/
 class NonstationaryPPM: public Model {
   enum {N=8};  // Number of contexts
   int c0;  // Current 0-7 bits of input with a leading 1
@@ -23,7 +24,7 @@ class NonstationaryPPM: public Model {
   Counter *cp[N];  // Pointers to current counters
   U32 hash[N];   // Hashes of last 0 to N-1 bytes
 public:
-  inline void predict(int& c0, int& c1) const;  // Add to counts of 0s and 1s
+  inline void predict();  // Add to counts of 0s and 1s
   inline void update(int y);   // Append bit y (0 or 1) to model
   NonstationaryPPM();
 };
@@ -36,7 +37,8 @@ NonstationaryPPM::NonstationaryPPM(): c0(1), c1(0), cn(1),
   }
 }
 
-void NonstationaryPPM::predict(int& n0, int& n1) const {
+void NonstationaryPPM::predict() {
+
   for (int i=0; i<N; ++i) {
     const int wt=(i+1)*(i+1);
     n0+=cp[i]->get0()*wt;
@@ -70,4 +72,3 @@ void NonstationaryPPM::update(int y) {
   for (int i=2; i<N; ++i)
     cp[i]=&counter2[hash[i]+cn+(c0<<24)];
 }
-*/
